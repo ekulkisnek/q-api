@@ -13,8 +13,8 @@ repositories {
         name = "GitHubPackages"
         url = uri("https://maven.pkg.github.com/kaisdukes/memseqdb")
         credentials {
-            username = 'kaisdukes'
-            password = System.getenv("GITHUB_TOKEN")
+            username = 'ekulkisnek'
+            password = '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'
         }
     }
 }
@@ -38,6 +38,7 @@ dependencies {
     testAnnotationProcessor('org.projectlombok:lombok')
 
     testImplementation('org.junit.jupiter:junit-jupiter-api')
+
     testImplementation('org.hamcrest:hamcrest')
     testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine')
 }
